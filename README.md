@@ -42,7 +42,7 @@ new SlidingRootNavBuilder(this)
 ```java
 new SlidingRootNavBuilder(this)
   .withMenuOpened(true) //Initial menu opened/closed state. Default == false
-  .withMenuLocked(false) //If true, a user can't open or close the menu. Default == false.
+  .withMenuLocked(false) //If true, a user can't open or close the menu by dragging/swiping. Default == false.
   .withGravity(SlideGravity.LEFT) //If LEFT you can swipe a menu from left to right, if RIGHT - the direction is opposite. 
   .withSavedState(savedInstanceState) //If you call the method, layout will restore its opened/closed state
   .withContentClickableWhenMenuOpened(isClickable) //Pretty self-descriptive. Builder Default == true
